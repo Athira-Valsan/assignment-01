@@ -1,0 +1,153 @@
+*{
+    padding: 0%;
+    padding-right: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+.navbar{
+    background-color: rgb(57, 146, 230);
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: darkslategrey;
+    font-family: 'Lobster', cursive;
+
+}
+.navbar-brand:hover{
+    color:black;
+}
+.nav-link{
+    margin-right: 10px;
+
+    margin-left: 10px;
+    color: darkslategrey;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color:black;
+}
+.main{
+    background: url('./Images/home4.jpg')no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700 ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.lgbtn{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline:none;
+    background-color: rgb(36, 138, 197);
+    color: rgb(228, 236, 231);
+    font-weight: 700;
+    border-radius: 60px;
+}
+.lgbtn:hover{
+    background-color: darkslategrey;
+    transition: 0.5s;
+}
+.regbtn{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline:none;
+    background-color: rgb(21, 88, 143);
+    color: rgb(243, 247, 244);
+    font-weight: 700;
+    border-radius: 60px;
+}
+.regbtn:hover{
+    background-color: darkslategrey;
+    transition: 0.5s;
+}
+.image-spcl{
+    width: 100px;
+    height: 100px;
+}
+.h1{
+    font-weight: 700;
+}
+.special h6{
+    text-align: center;
+
+}
+.morebtn{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline:none;
+    background-color: rgb(36, 138, 197);
+    color: rgb(225, 231, 227);
+    font-weight: 700;
+    border-radius: 60px;
+    margin-top: 2px;
+
+}
+.morebtn:hover{
+    background-color: darkslategrey;
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: 4px 14px 9px 7px rgba(166,194,174,0.75);
+-webkit-box-shadow: 4px 14px 9px 7px rgba(166,194,174,0.75);
+-moz-box-shadow: 4px 14px 9px 7px rgba(166,194,174,0.75);
+}
+.news{
+    background-color: black;
+    color: white;
+}
+.subbtn{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: 10px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+.news {
+    margin: 0px;
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+.special h1{
+    text-align: center;
+    font-size: 4rem;
+    color: red;
+    font-weight: 700 ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.session row-centre{
+    align-items: center;
+}
+.bgimg{
+    background: url('./Images/lr.jpg')no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+
+}
